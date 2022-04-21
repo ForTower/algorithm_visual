@@ -1,0 +1,24 @@
+<view>
+    <canvas type="2d" style="width: 100%; height: {{canvasHeight}}px; margin-top: 10px;" id="basicsCanvas"></canvas>
+
+    <view class="nav">
+        <view style="background-color: {{btnBgc[0]}};" bindtap="arrayStack">栈：数组实现</view>
+        <view style="background-color: {{btnBgc[1]}};" bindtap="linkStack">栈：链表实现</view>
+        <view style="background-color: {{btnBgc[2]}};" bindtap="arrayQueue">队列：数组实现</view>
+        <view style="background-color: {{btnBgc[3]}};" bindtap="linkQueue">队列：链表实现</view>
+    </view>
+
+    <view class="ope">
+        <view><input type="text" maxlength="3" value="{{value}}" bindinput="setNum" disabled="{{isBin}}" style="background-color: {{btnBgc[4]}};" /></view>
+        <view style="background-color: {{btnBgc[5]}};" bindtap="random">Random</view>
+        <view style="background-color: {{btnBgc[6]}};" bindtap="in">{{ope1}}</view>
+        <view style="background-color: {{btnBgc[7]}};" bindtap="out">{{ope2}}</view>
+    </view>
+
+    <view class="speed">
+        <view style="background-color: {{btnBgc[8]}};" bindtap="clear">Clear</view>
+        <view bindtap="slowDown">减速</view>
+        <view>{{speed}}</view>
+        <view bindtap="speedUp">加速</view>
+    </view>
+</view>

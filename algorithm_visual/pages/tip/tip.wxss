@@ -1,0 +1,10 @@
+.context{
+    font-size: 28rpx;
+    margin-left: 20rpx;
+    font-family: monospace;
+    padding: 5px;
+}
+
+.context text{
+    line-height: 60rpx;
+}

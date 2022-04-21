@@ -1,0 +1,23 @@
+<view>
+    <canvas type="2d" 
+            style="width: 100%; height: {{canvasHeight}}px; margin-top: 20px;" 
+            id="searchCanvas"></canvas>
+    <view class="context">
+        <input type="text" bindblur="setNum" value="{{value}}"/>
+        <text style="background-color:{{lineColor}};" bindtap="line">线性</text>
+        <text style="background-color: {{binColor}};" bindtap="binary">二分</text>
+    </view>
+    <view class="tip" wx:if="{{tip}}">请输入正整数且该正整数的位数小于四位</view>
+
+    <view class="bottom">
+        <view class="button" bindtap="restart">重新开始</view>
+        <view class="button" bindtap="generateArr">随机</view>
+        <view class="button" bindtap="search">搜索</view>
+    </view>
+
+    <view class="bottom">
+        <view class="button" bindtap="slowDown">减速</view>
+        <view class="button">{{speed}}</view>
+        <view class="button" bindtap="speedUp">加速</view>
+    </view>
+</view>

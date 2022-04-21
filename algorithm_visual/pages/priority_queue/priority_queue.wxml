@@ -1,0 +1,41 @@
+<view>
+    <canvas id="pqCanvas" type="2d" style="width: 100%; height: {{canvasHeight}}px;">
+    </canvas>
+
+    <view>
+        <view class="model">
+            <view class="text">模式:</view>
+            <view>
+                <radio-group bindchange="modelChange">
+                    <label for="max">
+                        <text>大顶堆</text>
+                    </label>
+                    <radio value="max" checked="true" id="max" disabled="{{isBin}}"></radio>
+                    <label for="min">
+                        <text>小顶堆</text>
+                    </label>
+                    <radio value="min" id="min" disabled="{{isBin}}"></radio>
+                </radio-group>
+            </view>
+        </view>
+    </view>
+
+    <view class="ope1">
+        <input disabled="{{isBin}}" type="number" maxlength="3" bindinput="handleInput"
+        style="background-color: {{btnBgc[0]}};"
+        value="{{inputValue}}"/>
+        <view style="background-color: {{btnBgc[1]}};" bindtap="random">Random</view>
+        <view style="background-color: {{btnBgc[2]}};" bindtap="push">Push</view>
+    </view>
+    <view class="ope1 ope2">
+        <view style="background-color: {{btnBgc[3]}};" bindtap="poll">Poll</view>
+        <view style="background-color: {{btnBgc[4]}};" bindtap="peek">Peek</view>
+        <view style="background-color: {{btnBgc[5]}};" bindtap="clear">Clear</view>
+    </view>
+
+    <view class="ope1 ope2">
+        <view bindtap="slowDown" style="background-color: {{btnBgc[6]}};">减速</view>
+        <view style="background-color: rgb(211, 211, 211);">{{speed}}</view>
+        <view bindtap="speedUp" style="background-color: {{btnBgc[7]}}">加速</view>
+    </view>
+</view>

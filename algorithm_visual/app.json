@@ -1,0 +1,59 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/javaCode/avlTreeJavaCoding/coding",
+        "pages/dijkstra/dijkstra",
+        "pages/javaCode/bstJavaCoding/coding",
+        "pages/avlTree/avlTree",
+        "pages/showBinaryTree/showBinaryTree",
+        "pages/graphTraverse/graphTranverse",
+        "pages/MCST/MCST",
+        "pages/basics/basics",
+        "pages/sorting/sorting",
+        "pages/priority_queue/priority_queue",
+        "pages/hashTable/hashTable",
+        "pages/BST2/BST2",
+        "pages/rbTree/rbTree",
+        "pages/binAndLinSearch/BLS",
+        "pages/tip/tip",
+        "pages/javaCode/index/index",
+        "pages/javaCode/dijkstra/coding",
+        "pages/javaCode/graphTraverseCoding/coding",
+        "pages/javaCode/hashTableCoding/coding",
+        "pages/javaCode/MSTCoding/coding",
+        "pages/javaCode/priorityQueueJavaCoding/coding",
+        "pages/javaCode/rbTreeJavaCoding/coding",
+        "pages/javaCode/s_and_q_java_coding/coding",
+        "pages/javaCode/searchJavaCoding/coding",
+        "pages/javaCode/sort_java_coding/coding",
+        "pages/javaCode/traverseBinaryTreeJavaCoding/coding"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "数据结构与算法可视化演示",
+        "navigationBarTextStyle": "black",
+        "pageOrientation": "portrait"
+    },
+    "sitemapLocation": "sitemap.json",
+    "resizable": true,
+    "tabBar": {
+        "color": "#000000",
+        "selectedColor": "#FF0000",
+        "borderStyle": "black",
+        "list": [
+            {
+                "selectedIconPath": "static/image/home2.png",
+                "iconPath": "static/image/home1.png",
+                "pagePath": "pages/index/index",
+                "text": "首页"
+            },
+            {
+                "selectedIconPath": "static/image/java2.png",
+                "iconPath": "static/image/java1.png",
+                "pagePath": "pages/javaCode/index/index",
+                "text": "Java代码"
+            }
+        ]
+    }
+}

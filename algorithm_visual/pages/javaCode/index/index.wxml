@@ -1,0 +1,115 @@
+<view class="box">
+  <view class="select" bindtap="stackAndQueue">
+    <image src="/static/image/list.png"></image>
+    <view class="type">数组与链表</view>
+    <view>
+      <text>队列</text>
+      <text>栈</text>
+    </view>
+  </view>
+  <view class="select" bindtap="sorting">
+    <image src="/static/image/sorting.png"></image>
+    <view class="type">排序</view>
+    <view>
+      <text>数组</text>
+      <text>算法</text>
+      <text>冒泡</text>
+      <text>选择</text>
+      <text>插入</text>
+    </view>
+  </view>
+  <view class="select" bindtap="showBinaryTree">
+    <image src="/static/image/bst.png"></image>
+    <view class="type">二叉树</view>
+    <view>
+      <text>递归</text>
+      <text>前序</text>
+      <text>中序</text>
+      <text>后序</text>
+    </view>
+  </view>
+  <view class="select" bindtap="BST">
+    <image src="/static/image/bst.png"></image>
+    <view class="type">二叉搜索树</view>
+    <text>插入</text>
+    <text>查找</text>
+    <text>删除</text>
+    <text>修改</text>
+  </view>
+  <view class="select" bindtap="bfsdfs">
+    <image src="/static/image/dfsbfs.png"></image>
+    <view class="type">图</view>
+    <view>
+      <text>广度优先搜索</text>
+      <text>深度优先搜索</text>
+    </view>
+  </view>
+  <view class="select" bindtap="dijkstra">
+    <image src="/static/image/sssp.png"></image>
+    <view class="type">单源最短路</view>
+    <view>
+      <text>sssp</text>
+      <text>单源</text>
+      <text>广度优先搜索</text>
+    </view>
+  </view>
+  <view class="select" bindtap="MCST">
+    <image src="/static/image/mst.png"></image>
+    <view class="type">最小生成树</view>
+    <view>
+      <text>Prim算法</text>
+      <text>Kruskal算法</text>
+    </view>
+  </view>
+  <view class="select" bindtap="search">
+    <image src="/static/image/bs.jpg"></image>
+    <view class="type">二分查找</view>
+    <view>
+      <text>数组</text>
+      <text>搜索</text>
+    </view>
+  </view>
+
+  <view class="select" bindtap="rbTree">
+    <image src="/static/image/rbTree.jpg"></image>
+    <view class="type">红黑树</view>
+    <view>
+      <text>插入</text>
+      <text>删除</text>
+      <text>查找</text>
+      <text>遍历</text>
+    </view>
+  </view>
+
+  <view class="select" bindtap="avlTree">
+    <image src="/static/image/avlTree.jpg"></image>
+    <view class="type">平衡二叉树</view>
+    <view>
+      <text>插入</text>
+      <text>删除</text>
+      <text>查找</text>
+      <text>遍历</text>
+    </view>
+  </view>
+  <view class="select" bindtap="hashTable">
+    <image src="/static/image/hashTable.jpg"></image>
+    <view class="type">链式哈希表</view>
+    <view>
+      <text>插入</text>
+      <text>删除</text>
+      <text>查找</text>
+      <text>遍历</text>
+    </view>
+  </view>
+
+  <view class="select" bindtap="priority_queue">
+    <image src="/static/image/pq.jpg"></image>
+    <view class="type">优先队列</view>
+    <view>
+      <text>入队</text>
+      <text>出队</text>
+      <text>大顶堆</text>
+      <text>小顶堆</text>
+    </view>
+  </view>
+</view>

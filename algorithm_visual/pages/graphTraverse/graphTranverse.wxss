@@ -1,0 +1,48 @@
+.ope, .speed{
+    width: 460rpx;
+    margin: auto;
+    margin-top: 6rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ope view, .speed view{
+    width: 100rpx;
+    height: 60rpx;
+    background-color: lightblue;
+    border-radius: 40rpx;
+    border: 2rpx solid gray;
+    text-align: center;
+    line-height: 60rpx;
+    font-size: 26rpx;
+}
+.speed{
+    width: 460rpx;
+}
+
+.speed .restart{
+    width: 120rpx;
+}
+
+label{
+    font-size: 20rpx;
+}
+radio {
+    transform:scale(0.8);
+    width: 60rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+}
+
+.select{
+    margin: auto;
+    width: 600rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.select .text{
+    font-size: 24rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+}

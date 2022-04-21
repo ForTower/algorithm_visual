@@ -1,0 +1,32 @@
+<view>
+    <view class="select">
+        <view class="notRecursive" style="background-color: {{btnBgc[4]}};" bindtap="notRec">非递归</view>
+        <view style="background-color: {{btnBgc[5]}};" bindtap="rec">递归</view>
+        
+        <view style="background-color: {{btnBgc[0]}};" bindtap="pre">前序</view>
+        <view style="background-color: {{btnBgc[1]}};" bindtap="order">中序</view>
+        <view style="background-color: {{btnBgc[2]}};" bindtap="after">后序</view>
+        <view style="background-color: {{btnBgc[3]}};" bindtap="layer">层序</view>
+    </view> 
+
+    <canvas type="2d"
+            id="SBTcanvas"
+            style="width: 100%; height: {{canvasHeight}}px;"></canvas>
+
+    <view class="inputArea">
+        <input type="text" value="{{inputValue}}" bindblur="inputTree"/>
+        <view bindtap="clear">清除</view>
+    </view>
+
+    <view class="mid">
+        <view bindtap="reStart">重新开始</view>
+        <view bindtap="randomGenTree">随机</view>
+        <view bindtap="demo">演示</view>
+    </view>
+
+    <view class="bottom">
+        <view bindtap="slowDown">减速</view>
+        <view>{{speed}}</view>
+        <view bindtap="speedUp">加速</view>
+    </view>
+</view>

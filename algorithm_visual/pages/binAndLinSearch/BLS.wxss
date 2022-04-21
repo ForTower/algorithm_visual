@@ -1,0 +1,53 @@
+.context {
+    width: 400rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 20rpx;
+    margin-bottom: 10rpx;
+}
+
+.context input, .context text{
+    width: 120rpx;
+    height: 60rpx;
+    border: 4rpx solid gray;
+    text-align: center;
+}
+
+.context text{
+    font-size: 24rpx;
+    line-height: 60rpx;
+    background-color: gray;
+    color: white;
+}
+
+.tip{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: red;
+    margin-bottom: 10rpx;
+    font-size: 24rpx;
+}
+
+.bottom{
+    width: 400rpx;
+    margin: auto;
+    margin-top: 10rpx;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.bottom .button{
+    font-size: 24rpx;
+    width: 120rpx;
+    background-color:gray;
+    height: 68rpx;
+    line-height: 68rpx;
+    text-align: center;
+    border-radius: 60rpx;
+    color: white;
+}

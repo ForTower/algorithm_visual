@@ -1,0 +1,26 @@
+<view>
+    <canvas type="2d" id="dijkstraCanvas" style="width: 100%; height: {{canvasHeight}}px;" bindtouchend="createGraph">
+    </canvas>
+    <view class="select">
+        <view class="text">Start:</view>
+        <view>
+            <radio-group bindchange="radioChange">
+                <label wx:for="{{vertexs}}" wx:key="item" for="{{item}}">
+                    <text>{{item}}</text>
+                    <radio value="{{item}}" checked="{{index == 0}}" disabled="{{iskruskal}}" id="{{item}}" />
+                </label>
+            </radio-group>
+        </view>
+    </view>
+
+    <view class="ope">
+        <view bindtap="handleRestart">Restart</view>
+        <view bindtap="handleClear">Clear</view>
+        <view bindtap="handleRun" style="background-color: {{btnRunColor}};">Run</view>
+    </view>
+    <view class="speed">
+        <view bindtap="slowDown">减速</view>
+        <view>{{speed}}</view>
+        <view bindtap="speedUp">加速</view>
+    </view>
+</view>

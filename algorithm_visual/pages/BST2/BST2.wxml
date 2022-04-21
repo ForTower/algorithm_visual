@@ -1,0 +1,26 @@
+<view>
+    <canvas type="2d"
+            id="bst2Canvas"
+            style="width: 100%; height: {{canvasHeight}}px;">
+    </canvas>
+
+    <view class="ope1">
+        <input type="number" maxlength="3" value="{{inputValue}}" bindinput="handleInput" style="background-color: {{btnBgc[0]}};" disabled="{{isBin}}"/>
+        <view style="background-color: {{btnBgc[1]}};" bindtap="random">Random</view>
+        <view style="background-color: {{btnBgc[2]}};" bindtap="insert">Insert</view>
+        <view style="background-color: {{btnBgc[3]}};" bindtap="delete">Delete</view>
+    </view>
+
+    <view class="ope2">
+        <view style="background-color: {{btnBgc[4]}};" bindtap="find">Find</view>
+        <view style="background-color: {{btnBgc[5]}};" bindtap="print">Print</view>
+        <view style="background-color: {{btnBgc[6]}};" bindtap="clear">Clear</view>
+    </view>
+
+    <view class="ope2">
+        <view bindtap="slowDown" style="background-color: {{btnBgc[7]}};">减速</view>
+        <view style="background-color: rgb(211, 211, 211);">{{speed}}</view>
+        <view bindtap="speedUp" style="background-color: {{btnBgc[8]}};">加速</view>
+    </view>
+
+</view>

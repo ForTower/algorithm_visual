@@ -1,0 +1,27 @@
+<view>
+    <canvas type="2d" style="width: 100%; height: {{canvasHeight}}px;" id="graphTrCanvas" bindtouchend="createGraph"></canvas>
+    <view class="select">
+        <view class="text">Start: </view>
+        <view>
+            <radio-group bindchange="radioChange">
+                <label wx:for="{{vertexs}}" wx:key="item">
+                    <text>{{item}}</text>
+                    <radio value="{{item}}" checked="{{index == 0}}"/>
+                </label>
+            </radio-group>
+        </view>
+    </view>
+
+    <view class="ope">
+        <view style="background-color: {{btnBgc[0]}};" bindtap="handleDfs">DFS</view>
+        <view style="background-color: {{btnBgc[1]}};" bindtap="handleBfs">BFS</view>
+        <view bindtap="clear">Clear</view>
+        <view bindtap="demo" style="background-color: {{btnBgc[2]}};">演示</view>
+    </view>
+    <view class="speed">
+        <view bindtap="handleRestart" class="restart">Restart</view>
+        <view bindtap="slowDown">减速</view>
+        <view>{{speed}}</view>
+        <view bindtap="speedUp">加速</view>
+    </view>
+</view>

@@ -1,0 +1,64 @@
+.nav{
+    width: 540rpx;
+    margin: auto;
+    margin-top: 4rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.nav view{
+    width: 260rpx;
+    height: 60rpx;
+    font-size: 26rpx;
+    line-height: 60rpx;
+    background-color: lightblue;
+    margin-top: 4rpx;
+    text-align: center;
+    border: 2rpx solid gray;
+}
+
+.ope, .speed{
+    width: 540rpx;
+    margin: auto;
+    margin-top: 10rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ope view{
+    width: 120rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    text-align: center;
+    background-color: lightblue;
+    border: 2rpx solid gray;
+    font-size: 26rpx;
+}
+
+.ope view input{
+    width: 120rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    background-color: white;
+}
+
+.speed view{
+    width: 120rpx;
+    font-size: 26rpx;
+    background-color:lightblue;
+    height: 68rpx;
+    line-height: 68rpx;
+    text-align: center;
+    border-radius: 120rpx;
+    color: black;
+    border: 2rpx solid gray;
+
+}
+
+
+
+

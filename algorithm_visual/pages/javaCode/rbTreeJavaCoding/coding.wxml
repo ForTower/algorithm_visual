@@ -1,0 +1,8 @@
+<view>
+        <view class="copy">
+                <image src="/static/image/copy.png" bindtap="copy" />
+        </view>
+        <scroll-view scroll-x="true" scroll-y="true">
+                <htmltowxml text='{{text}}' highlightLanguages="{{['java']}}" linenums="{{true}}"></htmltowxml>
+        </scroll-view>
+</view>

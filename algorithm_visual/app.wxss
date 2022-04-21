@@ -1,0 +1,19 @@
+
+scroll-view{
+    width: 100%;
+    height: calc(100vh - 25px);
+}
+
+.copy{
+    text-align: right;
+    padding-right: 5px;
+}
+.copy image{
+    width: 20px;
+    height: 20px;
+}
+
+canvas{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}

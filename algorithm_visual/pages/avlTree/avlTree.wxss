@@ -1,0 +1,28 @@
+.ope1, .ope2{
+    width: 460rpx;
+    margin: auto;
+    margin-top: 20rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ope1 view, .ope1 input, .ope2 view{
+    width: 100rpx;
+    height: 70rpx;
+    border: 2rpx solid gray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26rpx;
+    text-align: center;
+    line-height: 70rpx;
+}
+
+.ope2{
+    width: 340rpx;
+    margin-top: 10rpx;
+}
+
+.ope2 view{
+    border-radius: 40rpx;
+    background-color: lightblue;
+}

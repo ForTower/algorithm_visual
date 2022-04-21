@@ -1,0 +1,44 @@
+.ope1, .model{
+    width: 340rpx;
+    margin: auto;
+    margin-top: 10rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 24rpx;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.model{
+    width: 340rpx;
+}
+
+.ope1 input, .ope1 view{
+    width: 100rpx;
+    height: 70rpx;
+    line-height: 70rpx;
+    text-align: center;
+    border: 2rpx solid gray;
+}
+
+.ope1 view{
+    background-color: lightblue;
+}
+
+.ope2 view{
+    border-radius: 40rpx;
+}
+
+
+radio {
+    transform:scale(0.8);
+}
+
+label{
+    font-size: 24rpx;
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28rpx;
+}

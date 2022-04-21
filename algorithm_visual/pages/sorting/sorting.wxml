@@ -1,0 +1,24 @@
+<view class="nav">
+   <text wx:for="{{sortType}}" wx:key="item" style="background-color: {{backgroundColor[index]}};" bindtap="sortType{{index}}">{{item}}</text>
+</view>
+<canvas type="2d" style="width: 100%; height: {{canvasHeight + 'px'}};" id="sortCanvas"></canvas>
+<view class="input">
+    <input type="text" value="{{inputTxt}}" name="randomNums" bindblur="reNums"/>
+    <view bindtap="clear">清除</view>
+</view>
+<view class="tip" wx:if="{{tip}}">数字范围是大于0小于151且数组长度不大于10</view>
+<view class="box">
+    <view class="buttonContainer">
+        <text class="button" bindtap="reStart">重新开始</text>
+        <text class="button" bindtap="random">随机</text>
+        <text class="button" bindtap="sort">执行</text>
+    </view>
+</view>
+<view class="box">
+    <view class="buttonContainer">
+        <text class="button" bindtap="slowDown">减速</text>
+        <text class="button">{{speed}}</text>
+        <text class="button" bindtap="speedUp">加速</text>
+    </view>
+
+</view>

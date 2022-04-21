@@ -1,0 +1,70 @@
+ .select, .mid, .bottom{
+     width: 400rpx;
+     margin: auto;
+     margin-top: 20rpx;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+ }
+ .select view, .mid view, .bottom view{
+     border: 2rpx solid gray;
+     width: 80rpx;
+     height: 60rpx;
+     line-height: 60rpx;
+     text-align: center;
+     font-size: 28rpx;
+ }
+
+ .select view{
+     margin-bottom: 4rpx;
+     height: 60rpx;
+     line-height:60rpx;
+ }
+ .select{
+     width: 560rpx;
+ }
+
+ .select .notRecursive{
+     width: 100rpx;
+ }
+
+ .mid, .bottom{
+     margin-top: 10rpx;
+ }
+
+.mid view{
+    width: 120rpx;
+    height: 70rpx;
+    line-height: 70rpx;
+    background-color: lightblue;
+    border-radius: 40rpx;
+    
+}
+.bottom view{
+    border-radius: 40rpx;
+    width: 100rpx;
+    height: 70rpx;
+    line-height: 70rpx;
+    background-color: lightblue;
+}
+
+.inputArea{
+    display: flex;
+}
+.inputArea view{
+    width: 13%;
+    height: 60rpx;
+    line-height: 60rpx;
+    border: 4rpx solid orange;
+    background-color: lightblue;
+    margin-top: 4rpx;
+    text-align: center;
+}
+
+input{
+    width: 87%;
+    height: 60rpx;
+    border: 4rpx solid orange;
+    margin-top: 4rpx;
+    font-size: 28rpx;
+}
